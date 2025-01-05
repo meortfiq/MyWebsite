@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Introduction</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.0.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.0.css" media="screen" />
+<script type="text/javascript"> 
+$(document).ready(function () {
+    $("a.fancybox").fancybox({
+        'titleShow': false,
+        'transitionIn': 'elastic',
+        'transitionOut': 'elastic'
+    });
+});
+</script>
+<!-- Begin DropDown -->
+<script type="text/javascript">
+$(function () {
+    $("ul.dropdown li").hover(function () {
+        $(this).addClass("hover");
+        $('ul:first', this).css('visibility', 'visible');
+
+    }, function () {
+        $(this).removeClass("hover");
+        $('ul:first', this).css('visibility', 'hidden');
+    });
+    $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
+});
+</script>
+</head>
+<body>
+<div id="header">
+  <a href="https://www.facebook.com/share/1E6VTupU4k/?mibextid=wwXIfr"><img src="images/facebook.png" width="26" height="26" alt="" /></a> 
+</div>
+<ul class="dropdown">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="gallery.html">Gallery</a>
+    <ul class="sub_menu">
+
+    </ul>
+  </li>
+  <li><a href="page.html">Page</a></li>
+</ul>
+<div id="content">
+  <h1 align="center"><a name="top>"> I Lived in Port Dickson</a></h1>
+  <p style="text-align: justify;">A lovely fusion of historical significance and natural beauty can be found at Port Dickson, a seaside jewel located in the state of Negeri Sembilan. It is a paradise for lovers of environment and water sports due to its immaculate beaches, glistening waterways, and abundant marine life. <i>As someone who used to live in Port Dickson</i>, I can still clearly remember the kind locals and the relaxed charm of the area. The town's rich past, which is reflected in its historic landmarks and colonial-era architecture, deepens its appeal. Port Dickson offers a memorable experience whether you're looking to unwind on the beach, explore historical sites, or indulge in regional cuisine.</p>
+  <h1 align="center"><a name="top>">Graphic Design</a></h1>
+  <p style="text-align: justify;" >As a student, I find Canva invaluable for enhancing my editing process. It empowers me to transform my academic work into visually engaging presentations, fostering creativity and experimentation. By leveraging technology, I can refine my writing, explore different presentation styles, and ultimately produce higher-quality work that effectively communicates my ideas.</p>
+  <h1 align="center"><a name="top>">Buku Fixi</a></h1>
+  <p style="text-align: justify;">Buku Fixi holds a special place in my heart as a avid reader. I deeply admire their commitment to championing new voices and pushing the boundaries of Malaysian literature. My collection of their books, featuring titles like 'Kougar' by Shaz Johar, 'Cekik' by Ridhwan Saidi, and 'Pecah' by Khairulnizam Bakeri, showcases the diverse range of compelling stories they publish. I appreciate how Buku Fixi has not only enriched the Malaysian literary landscape but also introduced me to a wealth of talented authors and captivating narratives.</p>
+</div>
+<div id="sidebar">
+  
+  <h3>Negeri Sembilan</h3>
+  <a href="https://www.google.com/maps/search/?q=negeri+sembilan+malaysia">
+    <img src="images/FLAG NS.jpg" alt="Negeri Sembilan Flag" usemap="#image-map">
+  </a>
+  <map name="image-map">
+    <area target="_blank" alt="Negeri Sembilan" title="Negeri Sembilan" href="https://www.google.com/maps/search/?q=negeri+sembilan+malaysia" coords="100,100,250,200" shape="rect">
+  </map>
+  
+  <h3>Rembau</h3>
+  <video width="265" height="400" controls> 
+    <source src="video/VIDEO REMBAU.mp4" type="video/mp4">
+  </video>
+
+  <h3>Sources i used</h3>
+  <div class="navcontainer">
+    <ul>
+      <li><a href="https://www.storylane.io/tutorials/how-to-cite-in-canva">Storylane</a></li>
+      <li><a href="https://familylocket.com/using-canva-to-add-source-citations-to-document-images/">Familylocket</a></li>
+      <li><a href="https://www.canva.com/help/share-via-link-or-email/">Canva</a></li>
+    </ul>
+  </div>
+  <h3>About 2024</h3>
+  <p>2024 has been an incredible year, filled with unforgettable moments, especially the bonds I've formed with my classmates. The thought of our diploma ending is bittersweet, as I'll deeply miss these cherished memories and the love we share.</p>
+  <h3>Prepared For</h3>
+  <p class="sidebar_box">Dr Seri Intan Idayu Binti Shahrul Asari </p>
+</div>
+<div id="footer">Created by <a href="http://www.meortfiq.com">Meor Taufiq (2022617618)</a> </div>
+</body>
+</html>
