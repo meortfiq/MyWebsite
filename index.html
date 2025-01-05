@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>My Website</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="style-ie.css" /><![endif]-->
+<script type="text/javascript" src="jquery.js"></script>
+<!-- Begin DropDown -->
+<script type="text/javascript">
+$(function () {
+    $("ul.dropdown li").hover(function () {
+        $(this).addClass("hover");
+        $('ul:first', this).css('visibility', 'visible');
+
+    }, function () {
+        $(this).removeClass("hover");
+        $('ul:first', this).css('visibility', 'hidden');
+    });
+    $("ul.dropdown li ul li:has(ul)").find("a:first").append(" &raquo; ");
+});
+</script>
+</head>
+<body>
+  
+  <audio id="backgroundAudio" autoplay loop hidden>
+    <source src="classic-luxury/Audio/WAKING UP TOGETHER.mp3" type="audio/mpeg">
+  </audio>
+  
+<div id="header">
+  <div id="social"> 
+  <a href="https://www.facebook.com/share/1E6VTupU4k/?mibextid=wwXIfr"><img src="images/facebook.png" width="26" height="26" alt="" /></a> 
+  <a href="#"><img src="images/email.png" width="26" height="26" alt="" /></a> </div>
+</div>
+<ul class="dropdown">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="gallery.html">Gallery</a>
+    <ul class="sub_menu">
+
+    </ul>
+  </li>
+  <li><a href="page.html">Page</a></li>
+</ul>
+<div id="gallery">
+  <ul>
+    <li><img src="images/Meor 1.png" alt="" /></li>
+    <li><img src="images/Meor 2.png" alt="" /></li>
+    <li><img src="images/Meor 3.png" alt="" /></li>
+    <li><img src="images/Meor 4.png" alt="" /></li>
+  </ul>
+</div>
+<div id="intro">
+  <p>As Meor Taufiq bin Meor Abd Rahman, I often find inspiration for my photography in the beauty of the sky, especially when I'm studying at my dedicated workspace, reflecting on the many moments I spent capturing its stunning hues throughout 2024. realte with this</p>
+
+    Okay, here are 3 skills about myself:
+    
+    <br><b>Communication:</b> This is a fundamental skill in any field. It encompasses both written and verbal communication, allowing you to effectively convey your thoughts and ideas to others.</br>
+    
+    <br><b>Problem-solving:</b> The ability to identify, analyze, and resolve challenges is crucial in both personal and professional settings. Strong problem-solving skills often involve critical thinking, creativity, and the ability to think outside the box.</br>
+    
+    <br><b>Adaptability:</b> In today's rapidly changing world, adaptability is key. It's the ability to adjust to new situations, learn new things quickly, and thrive in dynamic environments.</br> </p>
+</div>
+<div id="box_left">
+  <h3>Uitm Rembau</h3>
+  <p>UiTM Rembau is a branch campus of UiTM located in Rembau, Negeri Sembilan, Malaysia, 
+    offering a diverse range of academic programs in various fields.</p>
+  <a href="#"> <a href ="https://nsembilan.uitm.edu.my/rembau/">
+  <img src="images/more.png" class="more" width="68" height="24" alt="" /></a></div>
+<div id="box_right">
+  <h3>Tiktok</h3>
+  <p>I decided to use TikTok as a platform to showcase my editing talent, 
+    entertain others with your creative content, 
+    and potentially even discover new editing techniques from the diverse community. </p>
+  <a href="#"> <a href ="https://www.tiktok.com/@ruangzuhud?_t=ZS-8so7xfmjGT9&_r=1">
+  <img src="images/more.png" class="more" width="68" height="24" alt="" /></a> </div>
+<div id="box_middle">
+  <h3>Pinterest</h3>
+  <p>Together with a my friend, I created a Pinterest account to share our amazing sky shots with the world. We like doing this because it could inspire people to acknowledge the incredible beauty of nature and possibly even start thinking about the beautiful sky. Thanks to my friend
+
+  </p>
+  <a href="#"> <a href ="https://www.pinterest.com/meortfiq/_created/">
+  <img src="images/more.png" class="more" width="68" height="24" alt="" /></a> </div>
+<div id="footer">Created by <a href="http://www.csstemplateheaven.com">Meor taufiq (2022617618) </a> </div>
+</body>
+</html>
